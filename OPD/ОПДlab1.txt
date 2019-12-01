@@ -1,0 +1,102 @@
+mkdir lab0
+cd lab0
+touch archeops2
+mkdir beedrill8
+mkdir croagunk4
+mkdir meowth1
+cd beedrill8
+touch cottonee
+touch infernape
+mkdir hippowdon
+mkdir vulpix
+mkdir empoleon
+touch lileep
+cd ..
+cd croagunk4
+touch hariyama
+touch drapion
+mkdir snover
+touch cranidos
+mkdir vespiquen
+cd ..
+touch gible7
+touch magby3
+cd meowth1
+mkdir petilil
+touch wartortle
+touch gardevoir
+mkdir magcargo
+
+
+
+
+echo "Развитые способности Intimidate" > archeops2                                      
+cd beedrill8                                                                            
+echo -e "Развитые\nспособности Chlorophyll" > cottonee
+echo -e "weigth=121.3 height=47.0 atk=10\ndef=7" > infernape
+echo "Развитые способности Storm Drain" > lileep
+cd ..
+cd croagunk4
+echo -e "satk=4\nsdef=6 spd=5" > hariyama
+echo "Тип покемона POISON DARK" > drapion
+echo -e "Развитые\nспособности Sheer Force" > cranidos
+
+echo -e "Способности Pure Blooded Landslide\nSand Veil Vital Spirit" > gible7
+echo -e "Развитые способности Vital\nSpirit" > magby3
+cd meowth1
+echo "Развитые способности Rain Dish" > wartortle
+echo -e "Ходы\nBody Slam Defense Curl Double-Edge Fire Punch Heal Bell Healing wish\0207 \nHelping Hand Hyper Voice Ice Punch Icy wind Hagic Coat Hagic Room\nHud-Slap Pain Split Recycle Role Play Shock Wave Signal Beam Skill\nSwap Sleep Talk Snatch Snore Swift Thunderpunch Trick Wonder Room Zen\nHeadbutt" > gardevoir
+
+chmod 004 archeops2
+chmod 500 beedrill8
+cd beedrill8	
+chmod 610 cottonee
+chmod 604 infernape
+chmod 524 hippowdon
+chmod 764 vulpix
+chmod 751 empoleon
+chmod 045 lileep
+cd ..
+chmod 700 croagunk4
+cd croagunk4
+chmod 660 hariyama
+chmod 066 drapion
+chmod 764 snover
+chmod 404 cranidos
+chmod 775 vespiquen
+cd ..
+chmod 046 gible7
+chmod 006 magby3
+chmod 561 meowth1
+cd meowth1
+chmod 736 petilil
+chmod 404 wartortle
+chmod 644 gardevoir
+chmod 357 magcargo
+cd ..
+
+cp -r beedrill8 beedrill8/vulpix
+ln -s meowth1 Copy_12
+cp archeops2 beedrill8/infernapearcheops
+cp archeops2 meowth1/petilil
+ln -s archeops2 meowth1/gardevoirarcheops
+ln gible7 meowth1/gardevoirgible
+cat croagunk4/hariyama beedrill8/infernape > gible7_28
+
+wc -l cottonee infernape ../croagunk4/hariyama | sort
+ls -lrt 2>/dev/null | grep e$
+cat -n gible7 | sort 2>/dev/null
+ls -lrt | tail -4 | grep g$ 2>/tmp/err
+cat -n beedrill8/* | grep -v in | sort -f 2>&1
+ls -lsr | grep v$ 2>/tmp/err
+
+chmod u+w archeops2
+rm archeops2
+chmod u+w  beedrill8/infernape
+rm beedrill8/infernape
+rm lab0/meowth1/gardevoirarcheo*
+rm meowth1/gardevoirgib*
+rm -rf beedrill8
+rm -rf croagunk4/vespiquen
+
+
