@@ -1,2 +1,3 @@
 # ITMO
- Studing in IFMO
+ Studying in ITMO
+
