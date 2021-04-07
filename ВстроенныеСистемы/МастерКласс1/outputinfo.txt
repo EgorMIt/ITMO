@@ -1,0 +1,112 @@
+Signature:		 4550 
+Numbers of sections:	 9
+Entry point address:	 00069667
+
+-------------------------------
+ 1 .textbss VirtSize:	  00010000
+
+VirtualAddress:		 00001000
+Raw data offset:	 00000000
+Size of raw data:	 00000000
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 e00000a0
+
+-------------------------------
+ 2 .text VirtSize:	  00007390
+
+VirtualAddress:		 00011000
+Raw data offset:	 00000400
+Size of raw data:	 00007400
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 60000020
+
+-------------------------------
+ 3 .rdata VirtSize:	  000023a2
+
+VirtualAddress:		 00019000
+Raw data offset:	 00007800
+Size of raw data:	 00002400
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 40000040
+
+-------------------------------
+ 4 .data VirtSize:	  000005a4
+
+VirtualAddress:		 0001c000
+Raw data offset:	 00009c00
+Size of raw data:	 00000200
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 c0000040
+
+-------------------------------
+ 5 .idata VirtSize:	  00000f43
+
+VirtualAddress:		 0001d000
+Raw data offset:	 00009e00
+Size of raw data:	 00001000
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 40000040
+
+-------------------------------
+ 6 .msvcjmc< VirtSize:	  0000013c
+
+VirtualAddress:		 0001e000
+Raw data offset:	 0000ae00
+Size of raw data:	 00000200
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 c0000040
+
+-------------------------------
+ 7 .00cfg VirtSize:	  00000109
+
+VirtualAddress:		 0001f000
+Raw data offset:	 0000b000
+Size of raw data:	 00000200
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 40000040
+
+-------------------------------
+ 8 .rsrc VirtSize:	  0000043c
+
+VirtualAddress:		 00020000
+Raw data offset:	 0000b200
+Size of raw data:	 00000600
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 40000040
+
+-------------------------------
+ 9 .reloc VirtSize:	  00000639
+
+VirtualAddress:		 00021000
+Raw data offset:	 0000b800
+Size of raw data:	 00000800
+Relocation offset:	 00000000
+Relocations number:	 00000000
+Line offset:		 00000000
+Lines number:		 00000000
+Characteristics:	 42000040
+
