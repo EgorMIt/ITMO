@@ -1,0 +1,624 @@
+{
+  "id": "94c70405-d5d5-4f08-9a1b-8573032bacf7",
+  "version": "2.0",
+  "name": "TPOLab3",
+  "url": "https://www.tutu.ru",
+  "tests": [{
+    "id": "09ae00d5-e0bd-4e2c-a0b0-5d8f9b2b5f3f",
+    "name": "VacantionsRedirect",
+    "commands": [{
+      "id": "d9c2d4cd-3b76-4027-9072-9abe8f89b870",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4b3a146-5055-4219-bf9b-40825a25e962",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee8ba4b2-0365-4c61-bbc0-e546281f7226",
+      "comment": "",
+      "command": "click",
+      "target": " xpath=/html/body/div[3]/div[1]/div/div/div[1]/ul[3]/li[2]/a",
+      "targets": [
+        ["linkText=Наши вакансии", "linkText"],
+        ["css=.footer_column:nth-child(4) > .list_item:nth-child(2) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Наши вакансии')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://company.tutu.ru/vacancy/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наши вакансии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "166fa6d2-d883-4677-a341-0be9976a597b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "3e8207ee-8b72-4697-a158-8779d1543d24",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://company.tutu.ru/vacancy/"
+    }]
+  }, {
+    "id": "d7547dd6-8c98-46e9-92bf-5e42f179cbc3",
+    "name": "ToursRedirect",
+    "commands": [{
+      "id": "e1af89c0-1c72-4758-8126-3a3eb1919566",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0c39b45-9400-4527-a450-1d4e4d4881dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c395f3a6-5de9-4a87-9566-69a119d187ec",
+      "comment": "",
+      "command": "click",
+      "target": " xpath=//*[@id=\"wrapper\"]/div[1]/div[4]/div/div[1]/a[1]/div[2]",
+      "targets": [
+        ["linkText=Наши вакансии", "linkText"],
+        ["css=.footer_column:nth-child(4) > .list_item:nth-child(2) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Наши вакансии')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://company.tutu.ru/vacancy/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наши вакансии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc4d788a-d2cd-4d98-8797-9e2c3889b65c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "0977e6cb-1e3f-4e55-a791-5ed2d6830406",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://tours.tutu.ru/"
+    }]
+  }, {
+    "id": "214a8e18-117d-43ac-95e6-4ac91078d573",
+    "name": "GoRedirect",
+    "commands": [{
+      "id": "583ac9eb-f353-4e1f-a518-d3141dcb768d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24bef2a1-707a-4d74-baf7-858f3308d458",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ce78910-15b2-4ab4-a0a6-74f8d22493b4",
+      "comment": "",
+      "command": "click",
+      "target": " xpath=//*[@id=\"wrapper\"]/div[1]/div[4]/div/div[1]/a[2]/div[2]",
+      "targets": [
+        ["linkText=Наши вакансии", "linkText"],
+        ["css=.footer_column:nth-child(4) > .list_item:nth-child(2) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Наши вакансии')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://company.tutu.ru/vacancy/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наши вакансии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41132cdd-1fc7-41f4-996d-bc2338e36e22",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "b63a44b2-ec41-4e9e-b333-407755947a0f",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://go.tutu.ru/"
+    }]
+  }, {
+    "id": "801190b3-3e51-4775-b215-864e2b11b8a3",
+    "name": "HotelsRedirectFullScreen",
+    "commands": [{
+      "id": "1ed3bc53-f63c-4c90-9121-a86955d281cd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48b3c57a-351a-4ceb-bc30-b9d2857ac34f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1940x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f259d77d-ab87-484f-acad-5df241aff601",
+      "comment": "",
+      "command": "click",
+      "target": " xpath=/html/body/div[3]/div[1]/div/div/div[1]/ul[3]/li[2]/a",
+      "targets": [
+        ["linkText=Наши вакансии", "linkText"],
+        ["css=.footer_column:nth-child(4) > .list_item:nth-child(2) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Наши вакансии')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://company.tutu.ru/vacancy/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наши вакансии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aff8280-65a5-4e2a-a9e6-01c51e79d880",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "1cb6fea9-6e95-40f6-bb1f-64978d505366",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://company.tutu.ru/vacancy/"
+    }]
+  }, {
+    "id": "417b2fce-616f-43f0-a0ba-301d779c8a4b",
+    "name": "HotelsRedirectSmallScreen",
+    "commands": [{
+      "id": "fa15cf37-20b5-4aef-ae9d-22cc7c52a38c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "820bbb97-ed62-4cf9-8f74-6ac2f4cd3457",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "948x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "126e34ec-023f-4d7e-a89d-6b85cfa7649f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"wrapper\"]/div[1]/div[4]/div/div[2]",
+      "targets": [
+        ["css=.b-tab_more", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3cf1acf-0aad-4a14-955d-198b822512fd",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"wrapper\"]/div[1]/div[4]/div/div[3]/div[1]/a[1]/div[2]",
+      "targets": [
+        ["css=.tab_hotels > .link", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div[4]/div/div[3]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d30fa1d-afda-4372-a042-631763b3ee5b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "2739564c-8e00-45a9-aa8a-53284d550736",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://hotel.tutu.ru/"
+    }]
+  }, {
+    "id": "3de9b5ae-d92d-4c54-bf3a-fd5b84badb0f",
+    "name": "BusinessTripRedirect",
+    "commands": [{
+      "id": "46ae8a6f-884f-4201-82a3-9426956b6f5d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a5e9e24-2549-482f-8227-1aaf0bf97fe8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "948x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4964a28f-df45-43ad-be59-70db4a257bec",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"wrapper\"]/div[1]/div[4]/div/div[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b46776cf-2040-496d-8c32-6427ced0bfa1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"wrapper\"]/div[1]/div[4]/div/div[3]/div[1]/a[2]/div[2]",
+      "targets": [
+        ["linkText=Наши вакансии", "linkText"],
+        ["css=.footer_column:nth-child(4) > .list_item:nth-child(2) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Наши вакансии')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://company.tutu.ru/vacancy/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наши вакансии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d7516db-e826-46be-830d-db795acedc79",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "a07d01b3-d85b-4cf4-a212-3b1597e23433",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://b2b.tutu.ru/"
+    }]
+  }, {
+    "id": "025979bd-2a1c-4d99-a5c0-69d63ff0428d",
+    "name": "AeroexpressRedirect",
+    "commands": [{
+      "id": "30a24417-df9b-40b4-8786-90922f7879c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b58138b4-9fcb-4e6d-b69d-b0e1722f61d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "948x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "750b0c74-995c-4ee3-bc4b-b8b138fbe8ac",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"wrapper\"]/div[1]/div[4]/div/div[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1760cd18-72b7-40b9-ba30-81ab16268a74",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"wrapper\"]/div[1]/div[4]/div/div[3]/div[1]/a[3]/div[2]",
+      "targets": [
+        ["linkText=Наши вакансии", "linkText"],
+        ["css=.footer_column:nth-child(4) > .list_item:nth-child(2) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Наши вакансии')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://company.tutu.ru/vacancy/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наши вакансии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ceb5786-d896-453e-85c1-b34e33b732f1",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "3e938d4a-40a3-4ce2-bcba-1fa6d068d090",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://aeroexpress.tutu.ru/"
+    }]
+  }, {
+    "id": "b2936e99-8e89-4daf-b015-e418d67389ce",
+    "name": "StoriesRedirect",
+    "commands": [{
+      "id": "43847727-dfa5-4121-8366-825c76a929c6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa012430-6f90-4ad8-8236-5b825bfe0684",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d230ff3-a02a-473d-8c7f-adfde547f854",
+      "comment": "",
+      "command": "click",
+      "target": " xpath=//*[@id=\"wrapper\"]/div[2]/div[1]/div/div[1]/a",
+      "targets": [
+        ["linkText=Наши вакансии", "linkText"],
+        ["css=.footer_column:nth-child(4) > .list_item:nth-child(2) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Наши вакансии')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://company.tutu.ru/vacancy/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наши вакансии')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "winStories",
+      "windowTimeout": 2000
+    }, {
+      "id": "d2f9b2fa-540d-4c1a-9e2c-3260a226d224",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${winStories}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "601f156a-7fa3-4527-b135-87cd63a1e21a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "1a904d33-b88d-4ba8-8c94-26b2e00e621a",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://story.tutu.ru/"
+    }]
+  }, {
+    "id": "b242c837-d345-48f8-ab40-2734a7648261",
+    "name": "MobileAppRedirect",
+    "commands": [{
+      "id": "a0c3bead-47d1-4595-ad11-e4d791952877",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d782035-e7b8-4e5e-8fba-0ad2bd15832c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d74d8e96-f27d-4ce1-bef6-5c77105c6525",
+      "comment": "",
+      "command": "click",
+      "target": " xpath=//*[@id=\"wrapper\"]/div[1]/div[6]/div/div[3]/div[1]/a[1]/img",
+      "targets": [
+        ["linkText=Наши вакансии", "linkText"],
+        ["css=.footer_column:nth-child(4) > .list_item:nth-child(2) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Наши вакансии')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://company.tutu.ru/vacancy/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наши вакансии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51461c9b-6880-45c9-b953-9e5760ed1bd9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "eed73f4e-aab2-492f-8500-b9ec6826269c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${url}.startsWith(\"https://apps.apple.com/ru/app/id1296791829\")",
+      "targets": [],
+      "value": "res"
+    }, {
+      "id": "7ca38eff-1dd6-4955-ba5a-63ac16b6b669",
+      "comment": "",
+      "command": "assert",
+      "target": "res",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "6cc72ad8-f94d-4420-93e2-c8ef27c79b77",
+    "name": "PopularDirectionsTest",
+    "commands": [{
+      "id": "d0a7608d-28b7-48e4-b3ef-5368521844ff",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c570a464-bb13-46dc-ae32-9130c1d912fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4eac22e-cf94-4362-9faa-2f92b1a88fc8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"wrapper\"]/div[2]/div[4]/div/div[1]/div/span[3]/a",
+      "targets": [
+        ["linkText=авиабилеты из Санкт-Петербурга", "linkText"],
+        ["css=.b-showcase__block:nth-child(1) .b-showcase__link:nth-child(3) > .g-link", "css:finder"],
+        ["xpath=//a[contains(text(),'авиабилеты из Санкт-Петербурга')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[2]/div[4]/div/div/div/span[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://avia.tutu.ru/aviareys/sankt-peterburg_75/')]", "xpath:href"],
+        ["xpath=//span[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'авиабилеты из Санкт-Петербурга')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8856d9cd-705c-4751-8ee2-8f01d4883f79",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"root\"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/div/div[1]/a",
+      "targets": [
+        ["linkText=Санкт‑Петербург — Москва", "linkText"],
+        ["css=.o33501:nth-child(1) .o33502 .o33639", "css:finder"],
+        ["xpath=//a[contains(text(),'Санкт‑Петербург — Москва')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://avia.tutu.ru/расписание_самолетов/Санкт-Петербург__Москва/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Санкт‑Петербург — Москва')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae41d87d-a4fc-4afd-b2a4-41de442fa68e",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "xpath=//*[@id=\"root\"]/div[2]/div[3]/div[2]/div[2]/div/div/div/div/div[1]/div/div[1]/div[1]/div/div[2]/div/div/div/input",
+      "targets": [],
+      "value": "Санкт-Петербург"
+    }, {
+      "id": "25bbc469-ed3b-4535-8b2b-54f7be2cf3c7",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "xpath=//*[@id=\"root\"]/div[2]/div[3]/div[2]/div[2]/div/div/div/div/div[1]/div/div[1]/div[2]/div/div[2]/div/div/div/input",
+      "targets": [],
+      "value": "Москва"
+    }, {
+      "id": "3f544403-ed13-4619-baad-dc2f3ca2ddcd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "d14b7134-681a-4d5d-9ee3-482b90d7beaa",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://avia.tutu.ru/%D1%80%D0%B0%D1%81%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%B0%D0%BC%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3__%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0/"
+    }]
+  }, {
+    "id": "38f0020b-e08c-4c05-a547-45e4048d6d98",
+    "name": "BusRedirect",
+    "commands": [{
+      "id": "818cb01f-594f-480a-a884-9d4abf9b1a2d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15bc0e98-5833-434d-963c-aad80eb7cd48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "948x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbc3d190-2760-4d78-b98f-8604026aa15d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"wrapper\"]/div[1]/div[1]/div[2]/div/a[3]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51002dac-55b8-484e-9f37-544f64233180",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "28fc7676-4c48-4ebb-9e64-fff5729c78e3",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://bus.tutu.ru/"
+    }]
+  }, {
+    "id": "614175b3-e75c-4573-a2f3-4e15c06b13e8",
+    "name": "AviaRedirect",
+    "commands": [{
+      "id": "4ffae18c-890f-4424-84b0-38bd0a358151",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b50efff2-09cf-41a1-b5f0-0055520df3df",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "948x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71fad87a-8b1b-4214-a6f5-11a91d45a603",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"wrapper\"]/div[1]/div[1]/div[2]/div/a[1]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ffbe0fa-2f2d-4618-bd8e-0a0bdb365aea",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "fe136eec-4718-44bf-9280-4f696f10e8ba",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "https://avia.tutu.ru/"
+    }]
+  }],
+  "suites": [{
+    "id": "2384aa7f-1567-4ed1-a4e6-302af5ab2323",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.tutu.ru/"],
+  "plugins": []
+}
